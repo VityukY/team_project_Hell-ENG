@@ -4,4 +4,20 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+//обратите внимание на расположение
+@import './base/_normalize';
+@import './base/_variables.scss';
+@import './base/_comons';
+@import './components/_header.scss';
+@import './components/_hero.scss';
+@import './components/_modal.scss';
+@import './components/_section02';
+@import "./components/_section_three.scss";
+@import './components/_programm.scss';
+@import './components/_teacher';
+@import "./components/_garants.scss";
+@import "./components/_slider.scss";
+@import "./components/_page-footer";
+@import "./utils/_placeholder";
+
+
